@@ -13,6 +13,7 @@
 		656912C7158E7F2400C99F40 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 656912C5158E7F2400C99F40 /* Credits.rtf */; };
 		656912CA158E7F2400C99F40 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656912C9158E7F2400C99F40 /* MDAppDelegate.m */; };
 		656912CD158E7F2400C99F40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656912CB158E7F2400C99F40 /* MainMenu.xib */; };
+		656912E0158F89CF00C99F40 /* Make-DVD-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 656912DE158F89C300C99F40 /* Make-DVD-Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		656912B9158E7F2400C99F40 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		656912BA158E7F2400C99F40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		656912BB158E7F2400C99F40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		656912BE158E7F2400C99F40 /* Make DVD-Info.plist */ = {isa = PBXFileReference; path = "Make DVD-Info.plist"; sourceTree = "<group>"; };
+		656912BE158E7F2400C99F40 /* Make DVD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Make DVD-Info.plist"; sourceTree = "<group>"; };
 		656912C0158E7F2400C99F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		656912C2158E7F2400C99F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		656912C4158E7F2400C99F40 /* Make DVD-Prefix.pch */ = {isa = PBXFileReference; path = "Make DVD-Prefix.pch"; sourceTree = "<group>"; };
+		656912C4158E7F2400C99F40 /* Make DVD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make DVD-Prefix.pch"; sourceTree = "<group>"; };
 		656912C6158E7F2400C99F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		656912C8158E7F2400C99F40 /* MDAppDelegate.h */ = {isa = PBXFileReference; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		656912C8158E7F2400C99F40 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
 		656912C9158E7F2400C99F40 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
 		656912CC158E7F2400C99F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		656912DE158F89C300C99F40 /* Make-DVD-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Make-DVD-Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		656912A7158E7F2400C99F40 = {
 			isa = PBXGroup;
 			children = (
+				656912DE158F89C300C99F40 /* Make-DVD-Icon.png */,
 				656912BC158E7F2400C99F40 /* Make DVD */,
 				656912B5158E7F2400C99F40 /* Frameworks */,
 				656912B3158E7F2400C99F40 /* Products */,
@@ -157,6 +160,7 @@
 				656912C1158E7F2400C99F40 /* InfoPlist.strings in Resources */,
 				656912C7158E7F2400C99F40 /* Credits.rtf in Resources */,
 				656912CD158E7F2400C99F40 /* MainMenu.xib in Resources */,
+				656912E0158F89CF00C99F40 /* Make-DVD-Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +294,7 @@
 				656912D2158E7F2400C99F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
