@@ -14,6 +14,8 @@
 		656912CA158E7F2400C99F40 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656912C9158E7F2400C99F40 /* MDAppDelegate.m */; };
 		656912CD158E7F2400C99F40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656912CB158E7F2400C99F40 /* MainMenu.xib */; };
 		656912E0158F89CF00C99F40 /* Make-DVD-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 656912DE158F89C300C99F40 /* Make-DVD-Icon.png */; };
+		656912E7159043EE00C99F40 /* MDDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 656912E6159043EE00C99F40 /* MDDragView.m */; };
+		656912EA1590529F00C99F40 /* Make-DVD.icns in Resources */ = {isa = PBXBuildFile; fileRef = 656912E91590529F00C99F40 /* Make-DVD.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		656912C9158E7F2400C99F40 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
 		656912CC158E7F2400C99F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		656912DE158F89C300C99F40 /* Make-DVD-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Make-DVD-Icon.png"; sourceTree = "<group>"; };
+		656912E5159043EE00C99F40 /* MDDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDragView.h; sourceTree = "<group>"; };
+		656912E6159043EE00C99F40 /* MDDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDragView.m; sourceTree = "<group>"; };
+		656912E91590529F00C99F40 /* Make-DVD.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Make-DVD.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				656912DE158F89C300C99F40 /* Make-DVD-Icon.png */,
+				656912E91590529F00C99F40 /* Make-DVD.icns */,
 				656912BC158E7F2400C99F40 /* Make DVD */,
 				656912B5158E7F2400C99F40 /* Frameworks */,
 				656912B3158E7F2400C99F40 /* Products */,
@@ -89,6 +95,8 @@
 				656912C9158E7F2400C99F40 /* MDAppDelegate.m */,
 				656912CB158E7F2400C99F40 /* MainMenu.xib */,
 				656912BD158E7F2400C99F40 /* Supporting Files */,
+				656912E5159043EE00C99F40 /* MDDragView.h */,
+				656912E6159043EE00C99F40 /* MDDragView.m */,
 			);
 			path = "Make DVD";
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				656912C7158E7F2400C99F40 /* Credits.rtf in Resources */,
 				656912CD158E7F2400C99F40 /* MainMenu.xib in Resources */,
 				656912E0158F89CF00C99F40 /* Make-DVD-Icon.png in Resources */,
+				656912EA1590529F00C99F40 /* Make-DVD.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +182,7 @@
 			files = (
 				656912C3158E7F2400C99F40 /* main.m in Sources */,
 				656912CA158E7F2400C99F40 /* MDAppDelegate.m in Sources */,
+				656912E7159043EE00C99F40 /* MDDragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

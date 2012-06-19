@@ -7,6 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MDDragView.h"
+
+@class MDDragView;
 
 @interface MDAppDelegate : NSObject <NSApplicationDelegate>
 
@@ -14,5 +17,6 @@
 @property (weak) IBOutlet NSTextField *currentFile;
 @property (weak) IBOutlet NSProgressIndicator *currentProgress;
 @property () dispatch_queue_t taskQ;
+@property (weak) IBOutlet MDDragView *dragView;
 
 @end
